@@ -36,7 +36,7 @@ with st.form("phishing_form"):
     url = st.text_input("🔗 Website URL", placeholder="https://example.com")
     model_type = st.selectbox(
         "🤖 Select ML Model",
-        options=["xgboost", "random_forest", "logistic_regression"],
+        options=["xgboost", "ann"],
         index=0,
     )
 
