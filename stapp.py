@@ -69,7 +69,7 @@ if submitted:
             with col1:
                 st.metric(
                     label="Prediction",
-                    value="PHISHING 🚨" if result["prediction"] == 1 else "SAFE ✅",
+                    value="PHISHING 🚨" if result["prediction"] == 0 else "SAFE ✅",
                 )
 
             with col2:
