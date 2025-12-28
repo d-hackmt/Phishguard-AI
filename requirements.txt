@@ -17,3 +17,4 @@ beautifulsoup4
 tldextract 
 dnspython 
 python-whois
+streamlit
